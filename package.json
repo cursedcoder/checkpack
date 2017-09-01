@@ -1,6 +1,6 @@
 {
   "name": "checkpack",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Check if your library works inside packagers.",
   "author": "Yevhenii Huselietov",
   "contributors": [
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/cursedcoder/checkpack.git"
   },
   "engines": {
-    "node": ">=5"
+    "node": ">=6.4.0"
   },
   "files": [
     "bin"
@@ -31,7 +31,7 @@
     "browserify": "~14.4.0",
     "opn": "^5.1.0",
     "path": "~0.12.7",
-    "phantom": "~3",
+    "puppeteer": "~0.10.1",
     "source-map-loader": "~0.2.1",
     "tmp": "^0.0.33",
     "tsify": "~3.0.1",
