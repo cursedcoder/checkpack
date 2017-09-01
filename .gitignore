@@ -2,3 +2,4 @@ build/*/*.js
 build/*/*.map
 node_modules
 yarn.lock
+bin/
