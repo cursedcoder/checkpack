@@ -22,7 +22,8 @@
     "bin"
   ],
   "scripts": {
-    "build": "./lib/build.js"
+    "build": "babel lib --out-dir bin -s",
+    "clean": "rimraf bin"
   },
   "bin": "./bin/checkpack.js",
   "dependencies": {
@@ -40,10 +41,9 @@
     "yargs": "~8.0.2"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-cli": "^6.26.0",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-preset-es2015": "~6.24.1",
-    "glob": "~7.1.2",
-    "mkdirp": "~0.5.1"
+    "rimraf": "^2.6.1"
   }
 }
