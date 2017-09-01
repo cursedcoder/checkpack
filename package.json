@@ -21,6 +21,9 @@
   "files": [
     "bin"
   ],
+  "scripts": {
+    "build": "./lib/build.js"
+  },
   "bin": "./bin/checkpack.js",
   "dependencies": {
     "awesome-typescript-loader": "~3.2.3",
