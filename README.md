@@ -12,7 +12,7 @@ checkpack webpack -e src/integration.ts
 checkpack browserify -e src/integration.ts
 checkpack vanillajs -e src/integration.ts
 
-# validate in phantomjs, for CI purposes
+# validate in chrome-headless, for CI purposes
 checkpack webpack -e src/integration.ts --validate
 ```
 
