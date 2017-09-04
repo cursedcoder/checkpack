@@ -1,6 +1,6 @@
 {
   "name": "checkpack",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Check if your library works inside packagers.",
   "author": "Yevhenii Huselietov",
   "contributors": [
