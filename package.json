@@ -24,7 +24,7 @@
   "scripts": {
     "build": "babel lib --out-dir bin -s",
     "clean": "rimraf bin",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "bin": "./bin/checkpack.js",
   "dependencies": {
