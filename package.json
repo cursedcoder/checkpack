@@ -1,6 +1,6 @@
 {
   "name": "checkpack",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Check if your library works inside packagers.",
   "author": "Yevhenii Huselietov",
   "contributors": [
@@ -23,7 +23,8 @@
   ],
   "scripts": {
     "build": "babel lib --out-dir bin -s",
-    "clean": "rimraf bin"
+    "clean": "rimraf bin",
+    "prepublish": "npm run build"
   },
   "bin": "./bin/checkpack.js",
   "dependencies": {
