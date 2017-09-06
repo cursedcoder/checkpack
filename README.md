@@ -1,4 +1,4 @@
-Checkpack
+Checkpack [![Build Status](https://travis-ci.org/cursedcoder/checkpack.svg?branch=master)](https://travis-ci.org/cursedcoder/checkpack)
 =========
 
 Check your library integration with typescript and packagers such as webpack.
