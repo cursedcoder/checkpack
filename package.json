@@ -1,6 +1,6 @@
 {
   "name": "checkpack",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "Check if your library works inside packagers.",
   "author": "Yevhenii Huselietov",
   "contributors": [
@@ -28,6 +28,7 @@
   },
   "bin": "./bin/checkpack.js",
   "dependencies": {
+    "@types/node": "^9",
     "awesome-typescript-loader": "^4.0.1",
     "babel-polyfill": "~6.26.0",
     "browserify": "~14.4.0",
